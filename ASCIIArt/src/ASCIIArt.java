@@ -17,11 +17,49 @@
 // YOU CODE HERE :) 
 
 public class ASCIIArt {
-	public static void main (String [] args) {
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
+	
+	public static void main(String [] args) {
+		System.out.println("|\\");
+		System.out.println("| \\");
+		System.out.println("|  \\");
+		System.out.println("|   \\");
+		System.out.println("|    \\");
+		System.out.println("|     \\");
+		System.out.println("|      \\");
+		System.out.println("|       \\");
+		method2();
+		method3();
+		method2();
+		System.out.println("|       /");
+		System.out.println("|      /");
+		System.out.println("|     /");
+		System.out.println("|    /");
+		System.out.println("|   /");
+		System.out.println("|  /");
+		System.out.println("| /");
+		System.out.println("|/");
+		System.out.println();
+		method1();
+			}
+	public static void method1() {
+
+		System.out.println("Just kidding its a fish");
 	}
+	public static void method2() {
+		System.out.println("|\t ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+	}
+	public static void method3() {
+		System.out.println("|\t ///////)))))))))))))))))~)\\\\");
+		System.out.println("|\t ///////))))))))))))))))(O))\\\\");
+		System.out.println("|\t ///////)))))))))))))))))))\\\\");
+		System.out.println("|\t )))))))))))))))))))))))))/");
+		System.out.println("|\t ))))))))))))))))))))))))/");
+		System.out.println("|\t ))))))-Abstract Ascii art by Anush Garimella");
+		System.out.println("|\t )))))))))))))))))))))))))\\");		
+		System.out.println("|\t ///////)))))))))))))))))))))\\\\");
+		System.out.println("|\t ///////))))))))))))))))))))////");
+		System.out.println("|\t ///////)))))))))))))))))))////");
+		System.out.println("|\t ///////))))))))))))))))))////");
+	}
+	
 }
